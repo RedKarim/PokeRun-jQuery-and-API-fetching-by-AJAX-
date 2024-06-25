@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poke Run</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="pokeGame">
+      <div class="score"></div>
+      <div class="startScreen">
+        <p>
+          ポケランへようこそ <br />
+          ここを押して開始してください<br />
+          矢印キーを使用して移動します<br />
+          他のポケモンに当たると負けになります。
+        </p>
+        <div>
+          難易度を選択してください。<br />
+          <span class="level">
+            <button id="easy">簡単</button>
+            <button id="moderate">適度</button>
+            <button id="difficult">難しい</button>
+          </span>
+        </div>
+      </div>
+      <div class="gameArea"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
